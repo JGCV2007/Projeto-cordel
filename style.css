@@ -1,24 +1,75 @@
 @charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+
 *{
     margin: 0px;
     padding:0px;
 }
 :root{
---font-1: Verdana, Geneva, Tahoma,sans-serif;
+--font-1: 'Passion One', cursive;
+--font-2: 'Sriracha', cursive;
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
     padding: 45px;
-   font-family: var(--font-1);
 }
+h1{
+    font-family: var(--font-1);
+    font-size:4em;
+    font-weight:700;
+} 
 a{
     font-family: var(--font-1);
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
+    font-weight: normal;
 }
 a:hover{
     text-decoration: underline;
     background-color: rgba(255, 255, 255, 0.415);
+}
+p{
+    font-size: large;
+    width:400px;
+    text-align: justify;
+    line-height:35px;
+    margin-bottom:60px;
+}
+aside#girasol{
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#cartas{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ aside > p{
+    background-attachment: scroll;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.305);
+}
+main{
+    font-family: var(--font-2);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding:2px;
+    text-align: center;
+}
+#par do footer{
+    background-color: black;
+    color: white;
+    padding:2px;
+    text-align: center;
 }
